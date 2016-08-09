@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Reminder",
+  "version": "1",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": ["alarms", "notifications", "https://jp-learn.herokuapp.com/api/v1/randoms"],
+  "app": {
+    "background": {
+      "scripts": ["alarms.js","background.js"]
+    }
+  },
+  "minimum_chrome_version": "28"
+}
